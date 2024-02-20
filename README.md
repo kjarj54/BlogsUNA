@@ -66,7 +66,7 @@ The group is ready to present the work to peers, showcasing the design, code, an
 
 **Note:** Please replace the placeholder values (e.g., [Specify Color], [Claro/Uscuro]) with actual details from your project.
 
-###Contact 📞
+### Contact 📞
 
 If you have any questions, suggestions or comments about this project, you can contact us through the following means:
 
