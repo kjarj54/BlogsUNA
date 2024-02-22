@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contacto BlogUNA</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <body>
+        <header>
+            <h1>Blog UNA</h1>
+            <div class="box">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contacto.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="namelastname">Name and LastName</label>
+                <input type="text" id="namelastname" class="input-padron" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Message</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                
+                <fieldset>
+                    <legend>How do you want be contact?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="phone" id="radio-phone">phone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>
+               
+                
+                <label class="checkbox"><input type="checkbox" checked></label>                
+                
+                <input type="submit" value="Send Form" class="enviar">
+
+            </form>
+        </main>
+        <footer>
+            <p>Blog UNA - 2020</p>
+        </footer>
+        
+    </body>
+</body>
+</html>
