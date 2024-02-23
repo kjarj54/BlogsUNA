@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 90%;
     padding: 10px;
     background: #d9d9d98f;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 #logoid {
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 25px;
 }
@@ -52,7 +52,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 90%;
     margin: 25px;
 }
 
@@ -67,9 +67,77 @@ main {
 
 .div-epicnotice {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
+    margin-top: 50px;
+    width: 90%;
 }
 
 #epicgamesid {
     width: 420px;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 25px;
+}
+
+.div-epic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #090909;
+}
+
+.div-epicenotice2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 90%;
+}
+
+#supermeatboyid {
+    width: 420px;
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    margin: 25px;
+}
+
+#warzoneid {
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.div-blogcontainer {
+    /* No recuerdo como hacer para invertir lo del flex, duda de Anthony */
+    display: flex;
+    flex-direction: column;
+}
+
+.div-tituleblog {
+    background: rgb(27,40,49);
+    background: linear-gradient(90deg, rgba(27,40,49,1) 18%, rgba(14,22,33,0.8211659663865546) 59%);
+}
+
+.div-blog {
+    background: rgb(92,105,116);
+    background: linear-gradient(142deg, rgba(92,105,116,0.9612219887955182) 20%, rgba(40,46,56,0.9248074229691877) 57%);
+}
+
+#halandid {
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
 }
