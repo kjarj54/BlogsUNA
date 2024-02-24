@@ -22,17 +22,11 @@
 }
 
 body {
-  background-color: #090909;
-  background: rgb(47, 58, 76);
-  background: linear-gradient(
-    180deg,
-    rgba(47, 58, 76, 1) 18%,
-    rgba(39, 45, 52, 1) 30%,
-    rgba(47, 48, 44, 1) 84%
-  );
+  background: rgb(47,58,76);
+  background: linear-gradient(180deg, rgba(47,58,76,1) 20%, rgba(39,45,52,1) 41%, rgba(47,48,44,1) 58%);
   font-family: 'Montserrat', sans-serif;
   position: relative;
-  padding-bottom: 75px; 
+  padding-bottom: 75px;
 }
 
 /* Header */
@@ -49,9 +43,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 90%;
   padding: 10px;
   background: #d9d9d98f;
+  -webkit-box-shadow: -12px 12px 6px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: -12px 12px 6px -8px rgba(0,0,0,0.75);
+  box-shadow: -12px 12px 6px -8px rgba(0,0,0,0.75);
 }
 
 .div-box1 {
@@ -84,32 +81,31 @@ main {
   color: white;
 }
 
-.hr-divisor {
-  width: 90%;
-  border: 4px solid #989898;
-  border-radius: 25px;
-}
-
 .section-1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   margin: 25px;
 }
 
 .div-titule {
   display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  width: 85%;
   height: 80px;
   border-radius: 25px;
+  font-size: 30px;
   background: rgb(27, 40, 49);
   background: linear-gradient(
     90deg,
     rgba(27, 40, 49, 1) 18%,
     rgba(14, 22, 33, 0.8211659663865546) 59%
   );
+  -webkit-box-shadow: -18px 15px 14px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -18px 15px 14px -4px rgba(0,0,0,0.75);
+  box-shadow: -18px 15px 14px -4px rgba(0,0,0,0.75);
 }
 
 .div-epicnotice {
@@ -117,19 +113,37 @@ main {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  width: 80%;
+  font-size: 25px;
   margin-top: 50px;
-  width: 90%;
+}
+
+.div-epicnotice p{
+  width: 500px;
+  line-height: 1.5;
 }
 
 #epicgamesid {
-  width: 420px;
+  width: 520px;
+  -webkit-box-shadow: -26px 26px 31px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: -26px 26px 31px -8px rgba(0,0,0,0.75);
+  box-shadow: -26px 26px 31px -8px rgba(0,0,0,0.75);
+}
+
+.hr-divisor {
+  width: 90%;
+  border: 4px solid #989898;
+  border-radius: 25px;
+  -webkit-box-shadow: -24px 25px 31px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: -24px 25px 31px -8px rgba(0,0,0,0.75);
+  box-shadow: -24px 25px 31px -8px rgba(0,0,0,0.75);
 }
 
 .section-2 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   margin: 25px;
 }
 
@@ -137,7 +151,13 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #090909;
+  width: 85%;
+  padding: 25px;
+  font-size: 30px;
+  background-image: url('images/Razer.jpeg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
 }
 
 .div-epicenotice2 {
@@ -145,8 +165,14 @@ main {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  font-size: 25px;
   margin-top: 50px;
   width: 90%;
+}
+
+.div-epicenotice2 p {
+  width: 500px;
+  line-height: 1.3;
 }
 
 #supermeatboyid {
@@ -157,20 +183,22 @@ main {
   display: flex;
   align-items: center;
   flex-direction: row;
-  width: 90%;
+  width: 85%;
+  height: 850px;
   margin: 25px;
 }
 
 #warzoneid {
-  height: 500px;
+  height: 850px;
   width: 300px;
   object-fit: cover;
 }
 
 .div-blogcontainer {
-  /* No recuerdo como hacer para invertir lo del flex, duda de Anthony */
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 .div-tituleblog {
@@ -192,7 +220,7 @@ main {
 }
 
 #halandid {
-  height: 500px;
+  height: 850px;
   width: 350px;
   object-fit: cover;
 }
@@ -256,14 +284,14 @@ main {
 }
 
 a i {
-  font-size: 24px; 
-  margin-right: 10px; 
+  font-size: 24px;
+  margin-right: 10px;
   color: #6c757d;
 }
 
 .footer p {
   margin: 0;
-  font-size: 14px; 
+  font-size: 14px;
 }
 /*Josue Monge R*/
 
