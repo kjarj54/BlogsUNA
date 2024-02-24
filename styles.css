@@ -36,9 +36,6 @@ body {
 }
 
 /* Header */
-header{
-  border-radius: 80px;
-}
 
 .header-tools {
   display: flex;
