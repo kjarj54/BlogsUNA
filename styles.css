@@ -36,6 +36,9 @@ body {
 }
 
 /* Header */
+header{
+  border-radius: 80px;
+}
 
 .header-tools {
   display: flex;
@@ -267,6 +270,28 @@ a i {
 }
 /*Josue Monge R*/
 
+input {
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(27, 40, 49, 1) 18%,
+    rgba(14, 22, 33, 0.8211659663865546) 59%
+  );
+  color: white;
+}
+
+textarea {
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(27, 40, 49, 1) 18%,
+    rgba(14, 22, 33, 0.8211659663865546) 59%
+  );
+  text-align: center;
+  color: white;
+}
+
+
 input[type="text"] {
   width: 100%;
   padding: 12px 20px;
@@ -310,6 +335,8 @@ legend {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+
 
 
 @media only screen and (max-width: 600px) {
