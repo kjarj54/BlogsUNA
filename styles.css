@@ -199,24 +199,55 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
+  margin: 10px;
 }
 
 .div-tituleblog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  height: 70px;
   background: rgb(27, 40, 49);
   background: linear-gradient(
     90deg,
     rgba(27, 40, 49, 1) 18%,
     rgba(14, 22, 33, 0.8211659663865546) 59%
-  );
-}
+    );
+    border-radius: 25px;
+  }
 
 .div-blog {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
   background: rgb(92, 105, 116);
   background: linear-gradient(
     142deg,
     rgba(92, 105, 116, 0.9612219887955182) 20%,
     rgba(40, 46, 56, 0.9248074229691877) 57%
   );
+}
+
+.div-bloginfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.div-blog h3 {
+  font-size: 31px;
+}
+
+.div-blog p {
+  font-size: 20px;
+}
+
+.div-blog img {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
 }
 
 #halandid {
