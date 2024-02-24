@@ -14,6 +14,8 @@ body {
     rgba(47, 48, 44, 1) 84%
   );
   font-family: "Trispace";
+  position: relative;
+  padding-bottom: 75px; 
 }
 
 /* Header */
@@ -188,6 +190,14 @@ main {
   color: white;
   background-color: #000000;
   height: 75px;
+  padding: 0 20px;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .div-footer1 {
@@ -195,19 +205,18 @@ main {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
-  width: 20%;
 }
 
 #logoid1 {
   width: 50px;
   height: 50px;
   border-radius: 25px;
+  margin-right: 10px;
 }
 
 .div-footer2 {
   display: flex;
   align-items: center;
-  flex-direction: column;
   width: 20%;
 }
 
@@ -218,6 +227,25 @@ main {
   width: 30%;
 }
 
+.div-footer2 a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+a i {
+  font-size: 24px; 
+  margin-right: 10px; 
+  color: #6c757d;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px; 
+}
 /*Josue Monge R*/
 
 input[type="text"] {
@@ -262,4 +290,17 @@ legend {
 .item-margin {
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .div-footer1,
+  .div-footer2,
+  .div-footer3 {
+    width: 100%;
+  }
 }
