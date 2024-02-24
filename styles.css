@@ -1,48 +1,53 @@
 body {
-    background-color: #090909;background: rgb(47,58,76);
-    background: linear-gradient(180deg, rgba(47,58,76,1) 18%, rgba(39,45,52,1) 30%, rgba(47,48,44,1) 84%);
-    font-family: 'Trispace';
+  background-color: #090909;
+  background: rgb(47, 58, 76);
+  background: linear-gradient(
+    180deg,
+    rgba(47, 58, 76, 1) 18%,
+    rgba(39, 45, 52, 1) 30%,
+    rgba(47, 48, 44, 1) 84%
+  );
+  font-family: "Trispace";
 }
 
 /* Header */
 
 .header-tools {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 10px;
-    color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .div-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    padding: 10px;
-    background: #d9d9d98f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding: 10px;
+  background: #d9d9d98f;
 }
 
 .div-box1 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 10%;
 }
 
 #logoid {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
 }
 
 .div-box2 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
 }
 
 /* main */
@@ -193,4 +198,51 @@ main {
     align-items: center;
     flex-direction: row;
     width: 30%;
+}
+
+
+/*Josue Monge R*/
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="tel"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  font-size: large;
+  width: 50%;
+}
+
+p,
+label,
+legend {
+  color: white;
+}
+
+.div-vvv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.item-margin {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
