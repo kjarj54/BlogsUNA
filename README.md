@@ -41,7 +41,7 @@ This repository contains the collaborative work of a group of three students who
 
 ### 2. Figma Prototyping
 
-- Created a refined prototype using [Figma](https://www.figma.com/) with finalized texts and AI-generated images.
+- Created a refined prototype using [Figma](https://www.figma.com/file/9SwNGQbodhT9DV11rzpxta/Untitled?type=design&node-id=0%3A1&mode=design&t=ft4pEXUwS1E0TyOh-1) with finalized texts and AI-generated images.
 
 ### 3. HTML and CSS Best Practices
 
